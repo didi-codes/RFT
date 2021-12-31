@@ -1,14 +1,15 @@
 import Head from 'next/head';
 import Nav from '../components/nav'
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Contact.module.css';
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Ramonita Perez Fitness Instructor</title>
+        <title>
+          Contact Ramonita For Fitness Training Consultation
+        </title>
         <meta name='description' content='Get Healthy and In Shape' />
-        <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />
     </div>
