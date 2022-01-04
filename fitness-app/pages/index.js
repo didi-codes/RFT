@@ -11,6 +11,9 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />
+      <div className={styles.carousel}>
+        <img src="images/kettlebells.jpg" alt="" />
+      </div>
     </div>
   );
 }

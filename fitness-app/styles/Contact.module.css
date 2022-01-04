@@ -1,0 +1,32 @@
+.formContainer {
+    background-color: #212529;
+    width: 40vw;
+    height: 100vh;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 3rem;
+    color: #f5f3f4;
+}
+
+.formTitle {
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+}
+
+.formSubtitle {
+    letter-spacing: 3px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 30vw;
+}
+
+.nameContainer {
+    margin-top: 5vh;
+    display: grid;
+    gap: 1vh;
+}
+
+.nameContainer input {
+    height: 5vh;
+}
+
